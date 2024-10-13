@@ -11,7 +11,7 @@ function NavigationBar({ cartValue }) {
       </div>
       <div className="cart">
         <p>Go to cart</p>
-        <p>${cartValue}</p>
+        <p>${cartValue.toFixed(2)}</p>
       </div>
     </div>
   );
